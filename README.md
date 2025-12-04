@@ -34,3 +34,37 @@ opencv-python
 mediapipe
 numpy
 pyautogui
+```
+---
+
+## 🚀 Installation
+Clone the repo and set up a virtual environment.
+
+## Bash
+```text
+# 1. Clone the repository
+git clone https://github.com/maanjk/hand-gesture-virtual-mouse.git
+cd hand-gesture-virtual-mouse
+
+# 2. Create a virtual environment (Windows)
+python -m venv venv
+
+# 3. Activate the virtual environment (Windows)
+venv\Scripts\activate
+
+# 4. Install dependencies
+pip install -r requirements.txt
+```
+
+## On macOS / Linux, activation would be:
+```text
+source venv/bin/activate
+```
+
+## ▶️ Usage
+Bash
+```text
+python virtual_mouse.py
+A window titled "AI Virtual Mouse" will open.
+Press q (with the window focused) to quit.
+```
